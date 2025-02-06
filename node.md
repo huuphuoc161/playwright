@@ -13,3 +13,7 @@ python3 -m pip install -r requirements.txt
 + pytest --version
 + Run Pytest
 + pytest [test_file]
+
+### set up configuration to get html report
+``
+argument: -s -v  --headed --html=./report-results/report.html --capture=tee-sys --browser=firefox``
